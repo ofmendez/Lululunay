@@ -1,0 +1,34 @@
+@media (max-width: 767px) {
+
+  .background {
+    background-image: url("../img/bg-mobile.webp");
+  }
+
+  .overlay-top {
+  top:5vw;
+}
+
+  .landing {
+    grid-template-columns: 1fr;
+    padding: 6vh 5vw 14vh;
+    text-align: center;
+  }
+
+  .signature {
+  position: fixed;
+  right: 50%;
+  bottom: 7vh;
+  transform: translateX(50%);
+}
+
+  .signature img {
+    max-width: 190px;
+    margin-bottom: 24px;
+    width: 30vw;
+  }
+
+  .platforms {
+    font-size: 12px;
+    line-height: 2em;
+  }
+}
